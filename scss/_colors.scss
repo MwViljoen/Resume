@@ -1,0 +1,11 @@
+$colors:(
+    primary: rgb(39, 39, 39),
+    secondary: rgb(132, 192, 219),
+    tertiary: rgb(100, 100, 100),
+    nav-text: rgb(41, 41, 41),
+    //secondary-light: lighten(#a6c0ce, 80%),
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}

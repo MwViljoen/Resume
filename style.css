@@ -1,0 +1,72 @@
+body {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5485a1), to(#a8dfff));
+  background-image: linear-gradient(90deg, #5485a1, #a8dfff);
+}
+
+nav #side-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  background-color: #272727;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  width: 20%;
+  height: 100vh;
+  z-index: 10;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 245px;
+  max-width: 260px;
+}
+
+nav #side-bar #profile-picture {
+  margin: 40% 0 15% 0;
+}
+
+nav #side-bar #contact-detail {
+  font-size: 1em;
+  padding-top: 3em;
+}
+
+nav #side-bar #contact-detail b {
+  font-family: sans-serif;
+  color: white;
+}
+
+nav #side-bar #jumps {
+  font-size: 1em;
+  font-weight: 600;
+  padding-top: 3em;
+}
+
+nav #side-bar #jumps a {
+  text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+}
+
+#main-contents {
+  position: relative;
+  padding-left: 17rem;
+  font-family: sans-serif;
+}
+
+#main-contents #content h1 {
+  font-size: 40px;
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+#main-contents #content p, #main-contents #content li {
+  font-size: 20px;
+  color: #292929;
+}
+/*# sourceMappingURL=style.css.map */
