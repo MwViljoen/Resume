@@ -5,11 +5,6 @@
 * Description
 * Installation of repository to local repositrory
 * Opening Projct on local repository
-* Images of Project
-    * Landing Page
-    * About Me Page
-    * More on Fishing Page
-    * Saved items Page
 
 ### Description
 
