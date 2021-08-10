@@ -4,7 +4,7 @@
 
 * Description
 * Installation of repository to local repositrory
-* Opening Projct on local repository
+* Opening Project on local repository
 
 ### Description
 
